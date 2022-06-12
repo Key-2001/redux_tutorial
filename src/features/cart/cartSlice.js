@@ -10,7 +10,7 @@ const initialState = {
     total: 0,
     isLoading: true
 }
-
+// HOatla
 export const getCartItems = createAsyncThunk('cart/getCartItems',async (msg,thunkAPI) => {
     try {
         console.log(thunkAPI);
